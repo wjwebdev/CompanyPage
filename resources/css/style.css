@@ -125,7 +125,7 @@ p {
     display: flex; 
 
     width: 100%; 
-    background-image: url("../resources/images/banner.jpg"); 
+    background-image: url("../images/banner.jpg"); 
     background-size: cover; 
     height: 100vh; 
     color: var(--white);
@@ -321,3 +321,4 @@ p {
     font-weight: bold; 
 
 }
+
