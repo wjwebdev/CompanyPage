@@ -84,7 +84,7 @@ p {
 }
 
 /*NAVBAR mobile view*/ 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
      .desktop {
         display: none; 
      }
@@ -191,13 +191,17 @@ p {
 }
 
 /*HEADER MOBILE VIEW*/ 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
     .intro h1 {
         font-size: 2.3rem; 
     }
 
     .intro p {
         font-size: 0.9rem; 
+    }
+
+    .main-header {
+        background-position-x: center; 
     }
 }
 
@@ -245,7 +249,7 @@ p {
 }
 
 /*WORK SECTION mobile view*/ 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
     #work {
         height: 100%; 
     }
@@ -307,7 +311,7 @@ p {
     padding-top: 0.4rem; 
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
     #team {
         height: 100%; 
     }
@@ -321,4 +325,5 @@ p {
     font-weight: bold; 
 
 }
+
 
